@@ -6,6 +6,7 @@
     "start": "node ./app.js",
     "dev": "npx nodemon",
     "build-client": "cd ../client && npm run build && cd ../server",
+    "pass": "cd .",
     "delete-public": "rmdir /s /q public && mkdir public",
     "copy-client": "xcopy /s \"../client/dist\" public",
     "build": "npm run build-client && npm run delete-public && npm run copy-client"
