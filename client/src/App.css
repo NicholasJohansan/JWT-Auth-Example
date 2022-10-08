@@ -1,0 +1,15 @@
+.App {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.loading {
+  position: fixed;
+  inset: 0 0 0 0;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
